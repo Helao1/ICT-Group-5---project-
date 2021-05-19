@@ -1,0 +1,30 @@
+start               ///pseudocode
+
+prompt decision/choice  ///from user
+get choice
+
+
+
+case
+1: login
+2: shop
+3: exit
+
+if case = 1 then
+loginPage()            ///-open login page
+
+else if case = 2 then
+shopPage()             ///-open shop page
+
+else exit
+
+end
+
+loginPage(
+
+)
+
+shopPage(
+
+)
+
