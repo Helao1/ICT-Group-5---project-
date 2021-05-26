@@ -1,6 +1,6 @@
 start               ///pseudocode
 
-prompt decision/choice  ///from user
+prompt choice       ///from user
 get choice
 
 
@@ -10,21 +10,55 @@ case
 2: shop
 3: exit
 
+switch
+
 if case = 1 then
 loginPage()            ///-open login page
 
 else if case = 2 then
 shopPage()             ///-open shop page
 
+else if case = 3 then
+exit
+
 else exit
 
 end
 
 loginPage(
-
+open "www.loginPage.com.na"
 )
 
 shopPage(
-
+open "www.onlinestore.com.na"
 )
+
+--------------------
+
+///customer relationship management database to serve as sales tool
+/// understanding: a place where customers can seek guidance or assistance
+    and information about our products. A Q/A type platform.
+
+///products
+//profit = sellingPrice - CostPrice
+//VAT= 15% * CostPrice
+///sellingPrice= VAT+CostPrice     ///Vat of particular products
+
+
+
+--------------------------
+
+///Feedback and assistance page(on store)
+
+survey/seeking info.
+//Questions
+Prompt user
+
+Switch
+case
+1.Do you seek assistance on products
+2.Would you like to rate our service
+3.Speak to a consultant
+4.Back to store
+
 
