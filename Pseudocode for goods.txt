@@ -1,0 +1,16 @@
+START
+	ENTER Website
+		IF user has an account 
+			DISPLAY "Sign in"
+			ELSE DISPLAY "Sign up"
+			PROMPT for Username and Password
+		IF valid
+			PRINT "Log in successful"
+			ELSE RETURN to Sign in
+		IF user wants to order
+			DISPLAY "Fill in order"
+			Store order form in Orders
+		ENDIF
+		ENDIF
+		ENDIF
+END
