@@ -1,10 +1,10 @@
-start               ///pseudocode
+start               ///pseudocode begins
 
 prompt choice       ///from user
 get choice
 
 
-
+switch
 case
 1: login
 2: shop
@@ -13,25 +13,26 @@ case
 switch
 
 if case = 1 then
-loginPage()            ///-open login page
+loginPage()            	///-open login page
 
 else if case = 2 then
-shopPage()             ///-open shop page
+shopPage()             	///-open shop page
 
-else if case = 3 then
+else if case = 3 then	/// -close the page/application
 exit
 
-else exit
+else 
+Print "You did not pick one of the given options. The program will now end its session."
 
 end
 
-loginPage(
+loginPage(){
 open "www.loginPage.com.na"
-)
+}
 
-shopPage(
+shopPage(){
 open "www.onlinestore.com.na"
-)
+}
 
 --------------------
 
@@ -39,26 +40,107 @@ open "www.onlinestore.com.na"
 /// understanding: a place where customers can seek guidance or assistance
     and information about our products. A Q/A type platform.
 
-///products
-//profit = sellingPrice - CostPrice
-//VAT= 15% * CostPrice
-///sellingPrice= VAT+CostPrice     ///Vat of particular products
-
-
 
 --------------------------
 
-///Feedback and assistance page(on store)
+///Feedback and assistance page(accessable from store)
+	///survey/seeking info.
+	//Questions
+	//Prompt user
 
-survey/seeking info.
-//Questions
-Prompt user
 
 Switch
-case
+case of choice			///This displays these options to the user then prompts a choice
+
+Print "
 1.Do you seek assistance on products
 2.Would you like to rate our service
 3.Speak to a consultant
 4.Back to store
+"
 
+if choice = 1 then      ///-This displays the 2 options to the user and prompts their choice/decision
+"1.request refund?
+ 2.back           "
+prompt decision
+get decision
+
+
+else if choice = 2 then
+shopPage()             	///-open shop page
+
+else if choice = 3 then
+Print 	"Help page: AskUsYourQuestions.com.na
+	consultant: +264813217890 "
+
+else if choice = 4 then
+shopPage()             	///-open shop page
+
+else
+Display "You have not chosen one of the given options." 
+exit
+
+shopPage(){
+open "www.onlinestore.com.na"
+}
+
+
+----------------------------------
+///client functions
+
+addClient()
+{
+    prompt client_Details ///client name, surname, contact information, residence
+    get client_Details
+    Print "A client has been added!"
+}
+
+
+removeClient()
+{
+    delete_Client   ///remove client and information on client
+}
+
+
+registerClient()            ///register client as available or pending
+{
+Display
+"   is client currently available? 
+    if Yes, click Yes to register as available client    		
+    if no, they will be automatically registered as a pending client "
+prompt choice
+get choice 
+}
+
+---------------------------
+///suppliers functions
+
+addSuppliers()
+{
+    prompt details  		///supplier name, surname, contact details
+    Print ("what is the supplier, supplying us with?")		///A visible question to the user
+    Prompt response		///prompts user to type something
+    get response
+    display "supplier added"
+}
+
+--------------------------
+
+Functions under finance
+
+///products
+//profit = sellingPrice - CostPrice
+//VAT= 15% * CostPrice
+//sellingPrice= VAT+CostPrice     ///VAT(Value Added Tax) of particular products
+
+
+getProfit()
+{
+	profit = sellingPrice - CostPrice
+}
+
+Vat()
+{
+	VAT= 15% * CostPrice
+}
 
