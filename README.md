@@ -1,9 +1,6 @@
 # ICT-Group-5---project-
 First
 
-# ICT-Group-5---project-
-First
-
 This application starts of with a case statement.
 The user is then prompted to pick a choice between the given options to proceed or the application closes.
 The first choice takes the user to a login page where either users, employees or the business owner may login.
@@ -14,3 +11,6 @@ Therefore, users could loggin first then access the store, or just directly go t
 
 The second option take the user to the Shop Page or the shopping page.
 On the shopping page, items and products can be seen which the user can choose to order or buy them on the online store.
+
+
+
