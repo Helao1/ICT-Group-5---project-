@@ -2,6 +2,33 @@ Ayesha Beauty Creation, is a beauty hair salon that caters for the needs of both
 The salon sells hair food, hair gel, shampoo and leave in conditioners. 
 So basically Ayesha Beauty Creation has three Employees and in order for them to log in into the system, their username and a password that is common for all three of them is required in order to gain access.
 Once the user has been granted access, a main menu pops up.
-The main menu is made up of a Clients Management button, Stock Control system button, Service button, Payment button button, receipt button, supplier button and report button as well as the exit button.
-If the user selects the Client Mnagement button, it opens up a form which has the option whether to open up the add/remove client. 
+The main menu is made up of a Clients Management button, Stock Control system button, Service button, Finances button button, supplier button and report button as well as the exit button.
+If the user selects the Client Management button, it opens up a form which has the option whether to open up the add/remove client. 
+Once the user opens up the Add/Remove Client form he has the ability to view all the registered clients, add new clients as well as delete any clients record.
 It also has a search button which is actually running with the aid of a query because the user has to enter the clients ID twice in order to gain access to the clients information.
+Once the user selects the stock control system button it opens up to a form which has Add/Remove Product button, the search button as well as the back button.
+Clicking on the Add/Remove product button opens up a form which allows you to view all the product records, add new products as well as delete any record.
+The search button runs wit the aid of a query, so once a user prompts the system for it to look for a certain product, the user has to enter the product ID twice in order to display the products details.
+The back button closes the Stock Control Sytem form and takes the user back to the main menu.
+When the user selects the services button on the main menu, it opens up the service form. 
+The service allows you to add all details related to the service Ayesha Beauty Creation offered on a particular day.
+The service form also allows the preview of the services offered, it also allows the addition of new services as well as the removal of unwanted service records.
+Clicking on the payment button on the main menu opens up a form with buttons that allow you to open up other forms such as the payment form and the receipts form.
+The payment form allows the user to add any payment done to Ayesha Beauty Creation by its clients, preview other payment records saved as well as delete any payment record.
+The Receipt form basically shows the payment details for that specific client including the amount of money he or she paid for a certain product.
+On the receipt form there is an option to create an a report, basically this button just allows the user to be able to open a report that can be printed out in order for the client to get a hardcopy of their own receipt.
+But in order to actually create the report the user has to enter the clients ID twice in order to have the clients payment details on the receipt report.
+Back on the main menu, once the supplier selects the supplier button it opens up the suppliers form.
+Opening up the suppliers form allows the user to add a new supplier, delee any supplier from the saved records as well as view all the rest of the saved records.
+Once the user selects the Reports button on the main menu it basically just takes them to the receipt report that allows the user to print out a receipt for the client.
+
+When a client walks into Ayesha Beauty Creations they get assisted by the secretary Eleanor Soren who kindly asks details that she needs from the client in order to fill up all the forms required such as the clients form, product form, service form and payment form.
+Eleanor Soren and the client have a conversation based on what the clients needs and when they have reached a common ground the customer leaves Ayesha Beauty Creations smiling as she has been served correctly ad found what she has been looking for.
+
+Ayesha Beauty Creations Has its main modules which are:
+Employees-This module is responsible for granting access to the right people which are the employees of Ayesha Beauty Creation.
+Clients- This module is responsible for adding new clients, removal of old clients and searching for specific clients.
+Services-this module is responsible for adding new services and removing services.
+Payments- this module is responsible for payments made to Ayesha Beauty Creation as well as generating receipts to its clients.
+Products- this module is responsible for adding a new product, deleting products as well as searching for a product.
+suppliers-this module is responsible for adding new suppliers and deleting suppliers.
