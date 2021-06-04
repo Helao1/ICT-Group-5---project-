@@ -1,3 +1,6 @@
+///This is the first trial at a readme 
+///Final to be done later
+
 start               ///pseudocode begins
 
 prompt choice       ///from user
