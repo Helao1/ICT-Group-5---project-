@@ -1,0 +1,7 @@
+Ayesha Beauty Creation, is a beauty hair salon that caters for the needs of both men and women.
+The salon sells hair food, hair gel, shampoo and leave in conditioners. 
+So basically Ayesha Beauty Creation has three Employees and in order for them to log in into the system, their username and a password that is common for all three of them is required in order to gain access.
+Once the user has been granted access, a main menu pops up.
+The main menu is made up of a Clients Management button, Stock Control system button, Service button, Payment button button, receipt button, supplier button and report button as well as the exit button.
+If the user selects the Client Mnagement button, it opens up a form which has the option whether to open up the add/remove client. 
+It also has a search button which is actually running with the aid of a query because the user has to enter the clients ID twice in order to gain access to the clients information.
